@@ -108,9 +108,7 @@ h1{
     width: auto;
     height: 70%;
     max-width: 40vw;
-
     max-height: 40vw;
-    
     border: 3px solid #3882F6;
 }
 
@@ -174,6 +172,7 @@ max-width: 30vw;
     height: 170px;
     border: 3px solid #3882F6;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .body2-ill{
@@ -191,4 +190,40 @@ h3{
     text-align: center;
     margin-top: 10px;
     font-weight: 400;
+}
+
+.body3{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body3-container{
+    width: 70%;
+    min-width: 85vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+
+    
+
+}
+
+.b3-text1{
+    font-size: calc(20px + 1.2vw);
+    font-weight: light;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+.b3-text2{
+    font-size: calc(20px + 0.4vw);
+    text-align: right;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 10px;
 }
