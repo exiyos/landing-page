@@ -227,3 +227,80 @@ h3{
     font-weight: bold;
     margin-top: 10px;
 }
+
+.body4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 400px;
+}
+
+.body4-containter{
+    width: 70%;
+    min-width: 85vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call{
+    width: 70%;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b4-text-con{
+width: 50%;
+color: #E5E7EB;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.b4-button-con{
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.b4-button{
+    width: 80px;
+    height: 45px;
+    border: #E5E7EB solid 2px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.b4-secondary{
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.b4-primary{
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+}
